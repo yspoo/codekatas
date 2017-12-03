@@ -63,5 +63,5 @@ end
 
 # Method 3
 def search_insert(nums, target)
-  (0...nums.size).bsearch { |index| nums[index] >= target } || nums.size  # use ... to exclude end value of range. || nums.size because we want to return nums.size if search result is nil.
+  (0...nums.size).bsearch { |index| nums[index] >= target } || nums.size  # b.search is binary search. use ... to exclude end value of range. || nums.size because we want to return nums.size if search result is nil.
 end

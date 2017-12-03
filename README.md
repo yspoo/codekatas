@@ -1,3 +1,3 @@
 # codekatas
 
-A repository of my solutions to codekatas from different sources.
+A repository of solutions to codekatas from different sources.
